@@ -1,0 +1,57 @@
+body {
+  background-color: #262828;
+  background-image: url(images/header-pic.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 50px;
+}
+
+header {
+  background-color: maroon;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+nav {
+  background-color: rgba(0, 0, 0, 0.61);
+  flex: 1;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+nav a {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+h1 {
+  color: lightslategrey;
+  font-size: 34px;
+}
+.row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.col-1 {
+  text-align: right;
+  height: 170px;
+}
+.col-1 h1 {
+  color: ivory;
+  font-size: 45px;
+  padding-top: 80px;
+  padding-right: 90px;
+}
+
+.col-2 {
+  flex-basis: 50px;
+  min-width: 700px;
+}
